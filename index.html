@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Star Trek RPG Soundboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+    <link href="assets/css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <img class="bulletlogo zap" id="top" src="assets/images/3graphics1.jpg" title="Online Systems"
+            alt="Online Systems">
+        <h1>Star Trek Soundboard</h1>
+        <ul>
+            <li><a class="zap" href="#favorite">Psych-Profile</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+        <header>
+            <h2>Starship Sounds</h2>
+            <h4 id="stardate"></h4>
+        </header>
+        <section class="text">
+            <audio id="sound1" src="assets/sounds/sound1.mp3"></audio>
+            <audio id="sound2" src="assets/sounds/sound2.wav"></audio>
+            <button onclick="document.getElementById('sound1').play()">Block</button>
+            <button onclick="document.getElementById('sound2').play()">Ignite</button>
+            <p>As a Front End Developer, I have a Certificate in Web Development and Bachelor degrees in Physics and
+                English, which give me the versatility to speak about and explain a wide variety of topics. </p>
+            <p>I am familiar with Github, HTML, CSS, Bootstrap, JavaScript, jQuery, JSON, Node.js, Firebase, Express,
+                AJAX, MongoDB, MySQL, and React. My three years of teaching physics, algebra, and video production
+                classes complement and reinforce these skills. I created my first website in 1998 and have diligently
+                maintained and updated it ever since then. More recently, I’ve built a portfolio of my projects,
+                including a React-based memory game. All of this has given me a firm foundation in explaining complex,
+                non-intuitive processes, and organizing groups of people and technical resources to create aesthetically
+                pleasing and marketable products. </p>
+            <p>Good eye for detail and well organized, with a talent for predicting possible future problems. Skilled at
+                explaining complex ideas and seeing things from multiple points of view. I’m a drama-free worker with
+                whom everyone finds it easy to get along, and I have no problem following detailed instructions. </p>
+        </section>
+        <header id="favorite">
+            <h2>Psych-Profile</h2>
+            <h4>NCC-1701-A</h4>
+        </header>
+        <section class="favorite-list">
+            <div>
+                <p>I love stories – fantastical mind expanding stories. Stories that poke the emotions and blow the mind
+                    are my favorite (so Speculative Fiction, in general and Science Fiction in detail). I like to find
+                    my brain and expectations challenged and norms subverted. I love stories with mystery and
+                    unexplained elements that are rationalized through the process of the protagonists grappling with
+                    the problem. I enjoy a solidly structured plot but will put up with a silly one if it takes my mind
+                    somewhere interesting. </p>
+                <p>The exception to the ‘mind over emotion’ story seems to be stories of sacrifice for intense
+                    friendship and family. I’m especially drawn to stories about found and forged families (rather than
+                    biological families). Romance is obviously one such example but it tends to be the one I’m least
+                    interested in. My reactions to these stories is all together much more primal and emotional, and I
+                    find it much harder to explain exactly why I enjoy them. </p>
+            </div>
+        </section>
+        <footer id="contact">
+            <p><strong>CONTACT INFO</strong></p>
+            <ul>
+                <li><a href="mailto:willbswift42@gmail.com" target="_blank">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/william-swift-821b9bb7/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/willbswift" target="_blank">Github Repository</a></li>
+                <li><a href="">Back To Top</a></li>
+                <p><strong>Email Address: willbswift42@gmail.com Telephone Number: 512-382-7652</strong></p>
+                <p>All content copyright William B. Swift</p>
+            </ul>
+        </footer>
+    </main>
+
+	<!-- Added link to the jQuery Library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- LINK TO FIREBASE GOES HERE -->
+	<script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+	<!-- Link to Moment.js should go here -->
+	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+	<script src="assets/javascript/game.js" type="text/javascript"></script>
+
+</body>
+
+</html>
