@@ -22,50 +22,365 @@
         </ul>
     </nav>
 
-
-
     <main>
         <header>
-            <h2>Starship Sounds</h2>
+            <h2>Starship Ambiences</h2>
             <h4 id="stardate"></h4>
         </header>
         <section class="text">
-            <audio id="sound1" src="assets/sounds/sound1.mp3"></audio>
-            <audio id="sound2" src="assets/sounds/sound2.wav"></audio>
-            <button onclick="document.getElementById('sound1').play()">Block</button>
-            <button onclick="document.getElementById('sound2').play()">Ignite</button>
-            <p>As a Front End Developer, I have a Certificate in Web Development and Bachelor degrees in Physics and
-                English, which give me the versatility to speak about and explain a wide variety of topics. </p>
-            <p>I am familiar with Github, HTML, CSS, Bootstrap, JavaScript, jQuery, JSON, Node.js, Firebase, Express,
-                AJAX, MongoDB, MySQL, and React. My three years of teaching physics, algebra, and video production
-                classes complement and reinforce these skills. I created my first website in 1998 and have diligently
-                maintained and updated it ever since then. More recently, I’ve built a portfolio of my projects,
-                including a React-based memory game. All of this has given me a firm foundation in explaining complex,
-                non-intuitive processes, and organizing groups of people and technical resources to create aesthetically
-                pleasing and marketable products. </p>
-            <p>Good eye for detail and well organized, with a talent for predicting possible future problems. Skilled at
-                explaining complex ideas and seeing things from multiple points of view. I’m a drama-free worker with
-                whom everyone finds it easy to get along, and I have no problem following detailed instructions. </p>
+            <ul class="ambient">
+                <li>
+                    <h4>Enterprise-A Rumble </h4>
+                    <audio controls="controls" loop="loop" volume="0">
+                    <source src="assets/sounds/trekambient/01enterpriseaengine.mp3" type="audio/mp3" /></audio>
+                </li>
+                <li>
+                    <h4>Enterprise-A BRIDGE</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/01enterprisebbridge.mp3" type="audio/mp3" /></audio>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <h4>Bridge Chatter</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/01airtrafficchatter.mp3" type="audio/mp3" /></audio>
+                </li>
+                <li>
+                    <h4>Radio Static</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/02radiostatic.wav" type="audio/wav" /></audio>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <h4>Red Alert</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/02redalert.mp3" type="audio/mp3" /></audio>
+                </li>
+                <li>
+                    <h4>Distress Beacon</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/01distressbeacon.mp3" type="audio/mp3" /></audio>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <h4>Sickbay</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/01tngsickbay.mp3" type="audio/mp3" /></audio>
+                </li>
+                <li>
+                    <h4>Heart Beat Scanner</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/03sickbayscanner.mp3" type="audio/mp3" /></audio>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <h4>Engineering</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/01voyengineroom.mp3" type="audio/mp3" /></audio>
+                </li>
+                <li>
+                    <h4>Lab</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/01tnglab.mp3" type="audio/mp3" /></audio>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <h4>Engines Straining</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/02warpdrivestrain.mp3" type="audio/mp3" /></audio>
+                </li>
+                <li>
+                    <h4>Brig Forcefield</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/01brigcell.mp3" type="audio/mp3" /></audio>
+                </li>
+            </ul>
         </section>
         <header id="favorite">
-            <h2>Psych-Profile</h2>
+            <h2>Ship Sound FX</h2>
             <h4>NCC-1701-A</h4>
         </header>
         <section class="favorite-list">
-            <div>
-                <p>I love stories – fantastical mind expanding stories. Stories that poke the emotions and blow the mind
-                    are my favorite (so Speculative Fiction, in general and Science Fiction in detail). I like to find
-                    my brain and expectations challenged and norms subverted. I love stories with mystery and
-                    unexplained elements that are rationalized through the process of the protagonists grappling with
-                    the problem. I enjoy a solidly structured plot but will put up with a silly one if it takes my mind
-                    somewhere interesting. </p>
-                <p>The exception to the ‘mind over emotion’ story seems to be stories of sacrifice for intense
-                    friendship and family. I’m especially drawn to stories about found and forged families (rather than
-                    biological families). Romance is obviously one such example but it tends to be the one I’m least
-                    interested in. My reactions to these stories is all together much more primal and emotional, and I
-                    find it much harder to explain exactly why I enjoy them. </p>
-            </div>
+            <ul class="ambient">
+                <li>
+                    <audio id="MATERIL2" src="assets/sounds/MATERIL2.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('MATERIL2').play()">Beam Down</button>
+                </li>
+                <li>
+                    <audio id="beamup" src="assets/sounds/beamup.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('beamup').play()">Beam Up</button>
+                </li>
+                <li>
+                    <audio id="unstable_transporter" src="assets/sounds/unstable_transporter.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('unstable_transporter').play()">Transport Fail</button>
+                </li>
+                <li>
+                    <audio id="hailing" src="assets/sounds/hailing.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('hailing').play()">Hailing Freq</button>
+                </li>
+                <li>
+                    <audio id="force_field_hit" src="assets/sounds/force_field_hit.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('force_field_hit').play()">Force Field Zap</button>
+                </li>
+
+            </ul>
+
+                <li>
+                    <audio id="communicator1" src="assets/sounds/communicator1.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('communicator1').play()">Communicator</button>
+                </li>
+                <li>
+                    <audio id="holodeck" src="assets/sounds/holodeck.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('holodeck').play()">Holodeck</button>
+                </li>
+
+            <ul class="ambient">
+                <li>
+                    <audio id="warpbang1" src="assets/sounds/warpbang1.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('warpbang1').play()">Warp Bang</button>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <audio id="phaser_stun" src="assets/sounds/phaser_stun.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('phaser_stun').play()">Phaser Stun</button>
+                </li>
+                <li>
+                    <audio id="phaser_kill" src="assets/sounds/phaser_kill.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('phaser_kill').play()">Phaser Kill</button>
+                </li>
+                <li>
+                    <audio id="tos_phaser_stun" src="assets/sounds/tos_phaser_stun.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('tos_phaser_stun').play()">TOS Phaser Stun</button>
+                </li>
+                <li>
+                    <audio id="tos_phaser" src="assets/sounds/tos_phaser.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('tos_phaser').play()">TOS Phaser Kill</button>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <audio id="communicator1" src="assets/sounds/communicator1.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('communicator1').play()">Communicator</button>
+                </li>
+                <li>
+                    <audio id="intercom_whistle" src="assets/sounds/intercom_whistle.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('intercom_whistle').play()">Intercom Whistle</button>
+                </li>
+                <li>
+                    <audio id="tractorbeam" src="assets/sounds/tractorbeam.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('tractorbeam').play()">Tractor Beam</button>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <audio id="tricorder_special" src="assets/sounds/tricorder_special.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('tricorder_special').play()">Tricorder Special</button>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <audio id="doors1" src="assets/sounds/doors1.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('doors1').play()">Door Once</button>
+                </li>
+                <li>
+                    <audio id="door2" src="assets/sounds/door2.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('door2').play()">Door 2x</button>
+                </li>
+                <li>
+                    <audio id="holodoors" src="assets/sounds/holodoors.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('holodoors').play()">Holo Door</button>
+                </li>
+                <li>
+                    <audio id="doorbell1" src="assets/sounds/doorbell1.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('doorbell1').play()">Doorbell</button>
+                </li>
+
+                <li>
+                    <audio id="turbolift" src="assets/sounds/turbolift.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('turbolift').play()">Turbolift</button>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <audio id="replicator" src="assets/sounds/replicator.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('replicator').play()">Replicator</button>
+                </li>
+
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <audio id="phasertype10" src="assets/sounds/phasertype10.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('phasertype10').play()">Ship Phaser</button>
+                </li>
+                <li>
+                    <audio id="photorp3" src="assets/sounds/photorp3.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('photorp3').play()">Torpedo</button>
+                </li>
+                <li>
+                    <audio id="torps_lots" src="assets/sounds/torps_lots.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('torps_lots').play()">Lots of Torps</button>
+                </li>
+                <li>
+                    <audio id="phasertorp" src="assets/sounds/phasertorp.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('phasertorp').play()">Phasers/Torpedos</button>
+                </li>
+
+            </ul>
+
+            <ul class="ambient">
+                <li>
+                    <audio id="klingon_disruptor_clean" src="assets/sounds/klingon_disruptor_clean.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('klingon_disruptor_clean').play()">Klingon Disruptor</button>
+                </li>
+                <li>
+                    <audio id="klingon_weapon_clean" src="assets/sounds/klingon_weapon_clean.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('klingon_weapon_clean').play()">Klingon Disruptor</button>
+                </li>
+                <li>
+                    <audio id="disruptor" src="assets/sounds/disruptor.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('disruptor').play()">Disruptor Generic</button>
+                </li>
+                <li>
+                    <audio id="klingon_sensor_alert" src="assets/sounds/klingon_sensor_alert.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('klingon_sensor_alert').play()">Klingon Alarm</button>
+                </li>
+
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <audio id="romulan_torpedo_clean" src="assets/sounds/romulan_torpedo_clean.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('romulan_torpedo_clean').play()">Romulan Torp</button>
+                </li>
+                <li>
+                    <audio id="romulan_disruptor" src="assets/sounds/romulan_disruptor.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('romulan_disruptor').play()">Romulan Disruptor</button>
+                </li>
+                <li>
+                    <audio id="romulan_disruptor1" src="assets/sounds/romulan_disruptor1.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('romulan_disruptor1').play()">Romulan Disruptor</button>
+                </li>
+                <li>
+                    <audio id="decloak_romulan" src="assets/sounds/decloak_romulan.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('decloak_romulan').play()">Romulan Cloak</button>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <audio id="romulan_transporter" src="assets/sounds/romulan_transporter.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('romulan_transporter').play()">Romulan Transporter</button>
+                </li>
+                <li>
+                    <audio id="romulan_replicator" src="assets/sounds/romulan_replicator.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('romulan_replicator').play()">Romulan Replicator</button>
+                </li>
+                <li>
+                    <audio id="rom_door" src="assets/sounds/rom_door.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('rom_door').play()">Romulan Door</button>
+                </li>
+                <li>
+                    <audio id="romulan_device" src="assets/sounds/romulan_device.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('romulan_device').play()">Romulan Device</button>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <audio id="console_explo_01" src="assets/sounds/console_explo_01.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('console_explo_01').play()">Console Burnout</button>
+                </li>
+                <li>
+                    <audio id="smallexplosion2" src="assets/sounds/smallexplosion2.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('smallexplosion2').play()">Small Explosion</button>
+                </li>
+                <li>
+                    <audio id="largeexplosion1" src="assets/sounds/largeexplosion1.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('largeexplosion1').play()">Explosion</button>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <audio id="triumph" src="assets/sounds/triumph.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('triumph').play()">Triumph Sting</button>
+                </li>   
+                <li>
+                    <audio id="tension" src="assets/sounds/tension.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('tension').play()">Tension Sting</button>
+                </li>            
+                <li>
+                    <audio id="doom" src="assets/sounds/doom.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('doom').play()">Bad News Sting</button>
+                </li>      
+                <li>
+                    <audio id="boldly" src="assets/sounds/boldly.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('boldly').play()">Boldly Go</button>
+                </li>       
+            </ul>
+
+
+
+
+            <ul class="ambient">
+                <li>
+                    <audio id="hes_dead" src="assets/sounds/hes_dead.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('hes_dead').play()">Dead Jim</button>
+                </li>
+                <li>
+                    <audio id="doctor" src="assets/sounds/doctor.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('doctor').play()">I'm a Doctor</button>
+                </li>
+                <li>
+                    <audio id="working" src="assets/sounds/working.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('working').play()">Computer Working</button>
+                </li>
+                <li>
+                    <audio id="tribble" src="assets/sounds/tribble.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('tribble').play()">Tribble</button>
+                </li>
+                <li>
+                    <audio id="q_snap" src="assets/sounds/q_snap.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('q_snap').play()">Q</button>
+                </li>
+            </ul>
+
+
         </section>
+
+        <header>
+            <h2>Romulan Sound FX</h2>
+            <h4 id="stardate"></h4>
+        </header>
+        <section class="text">
+            <ul class="ambient">
+                <li>
+                    <h4>Romulan Ship Noise</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/03romulanshipbackground.mp3" type="audio/mp3" /></audio>
+                </li>
+                <li>
+                    <h4>Romulan Hum</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/03romulanhum.mp3" type="audio/mp3" /></audio>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
+                    <h4>Romulan Bridge</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/03romulanbridge.mp3" type="audio/mp3" /></audio>
+                </li>
+                <li>
+                    <h4>Romulan Alarm</h4>
+                    <audio controls="controls" loop="loop">
+                    <source src="assets/sounds/trekambient/03romulan_alarm.mp3" type="audio/mp3" /></audio>
+                </li>
+            </ul>
+        </section>
+        
         <footer id="contact">
             <p><strong>CONTACT INFO</strong></p>
             <ul>
