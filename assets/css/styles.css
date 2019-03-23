@@ -14,6 +14,7 @@ h1 {
 	color: #8acbf1;
 	padding: 0;
 	margin-bottom: 3.9rem;
+	margin-left: 1rem;
 }
 h2 {
 	font-size: 2.8rem;
@@ -22,10 +23,11 @@ h2 {
 }
 h3 {
 	color: #8acbf1;
-	font-size: 2rem;
+	font-size: 1.4rem;
 	background-color: #0c05e0;
 	border-radius: 10px;
 	padding: .5rem;
+	margin-bottom: .6rem;
 }
 h4 {
 	font-size: 1.4rem;
@@ -74,6 +76,7 @@ a {
 	background-color: #98fa63;
 	padding: 5px 25px;
 	border-radius: 10px;
+	margin-right: .5rem;
 }
 a:hover {
 	color: black;
@@ -137,6 +140,7 @@ hr {
 	color: black;
 	font-family: Titillium Web, Arial, sans-serif;
 	font-weight: bold;
+	font-size: 1.2rem;
 	text-decoration: none;
 	text-transform: uppercase;
 	background-color: #98fa63;
@@ -216,6 +220,10 @@ ul li {
 	/* display: inline;
 	padding-right: 0.3rem;
 	margin-left: 0; */
+}
+
+footer ul {
+	margin-top: 1rem;
 }
 
 .favorite-list {
