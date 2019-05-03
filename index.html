@@ -63,7 +63,7 @@
                 <li>
                     <h4>Voices</h4>
                     <audio controls="controls" loop="loop">
-                    <source src="assets/sounds/trekambient/inn_voices_hum.mp3" type="audio/mp3" /></audio>
+                        <source src="assets/sounds/trekambient/inn_voices_hum.mp3" type="audio/mp3" /></audio>
                 </li>
             </ul>
             <ul class="ambient">
@@ -131,17 +131,32 @@
                     <button class="button" onclick="document.getElementById('door2').play()">Door 2x</button>
                 </li>
                 <li>
+                    <audio id="doorbell1" src="assets/sounds/doorbell1.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('doorbell1').play()">Doorbell</button>
+                </li>
+                <li>
+                    <audio id="turbolift" src="assets/sounds/turbolift.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('turbolift').play()">Turbolift</button>
+                </li>
+            </ul>
+            <ul class="ambient">
+                <li>
                     <audio id="holodoors" src="assets/sounds/holodoors.mp3"></audio>
                     <button class="button" onclick="document.getElementById('holodoors').play()">Holo Door</button>
                 </li>
                 <li>
-                    <audio id="doorbell1" src="assets/sounds/doorbell1.mp3"></audio>
-                    <button class="button" onclick="document.getElementById('doorbell1').play()">Doorbell</button>
+                    <audio id="holodeck" src="assets/sounds/holodeck.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('holodeck').play()">Holodeck</button>
                 </li>
-
                 <li>
-                    <audio id="turbolift" src="assets/sounds/turbolift.mp3"></audio>
-                    <button class="button" onclick="document.getElementById('turbolift').play()">Turbolift</button>
+                    <audio id="forcefldon" src="assets/sounds/forcefldon.wav"></audio>
+                    <button class="button" onclick="document.getElementById('forcefldon').play()">Force Field
+                        On</button>
+                </li>
+                <li>
+                    <audio id="force_field_hit" src="assets/sounds/force_field_hit.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('force_field_hit').play()">Force Field
+                        Zap</button>
                 </li>
             </ul>
             <ul class="ambient">
@@ -151,22 +166,13 @@
                         onclick="document.getElementById('communicator1').play()">Communicator</button>
                 </li>
                 <li>
-                    <audio id="holodeck" src="assets/sounds/holodeck.mp3"></audio>
-                    <button class="button" onclick="document.getElementById('holodeck').play()">Holodeck</button>
-                </li>
-                <li>
-                    <audio id="force_field_hit" src="assets/sounds/force_field_hit.mp3"></audio>
-                    <button class="button" onclick="document.getElementById('force_field_hit').play()">Force Field
-                        Zap</button>
+                    <audio id="replicator" src="assets/sounds/replicator.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('replicator').play()">Replicator</button>
                 </li>
                 <li>
                     <audio id="36_shuttle_fly-by" src="assets/sounds/36_shuttle_fly-by.mp3"></audio>
                     <button class="button" onclick="document.getElementById('36_shuttle_fly-by').play()">Shuttle
                         Fly-By</button>
-                </li>
-                <li>
-                    <audio id="replicator" src="assets/sounds/replicator.mp3"></audio>
-                    <button class="button" onclick="document.getElementById('replicator').play()">Replicator</button>
                 </li>
             </ul>
             <h3>Bridge</h3>
@@ -237,7 +243,8 @@
                 </li>
                 <li>
                     <audio id="01distressbeacon" src="assets/sounds/01distressbeacon.mp3"></audio>
-                    <button class="button" onclick="document.getElementById('01distressbeacon').play()">Distress Beacon</button>
+                    <button class="button" onclick="document.getElementById('01distressbeacon').play()">Distress
+                        Beacon</button>
                 </li>
             </ul>
             <h3>Explosions</h3>
@@ -314,7 +321,7 @@
                 </li>
                 <li>
                     <audio id="working" src="assets/sounds/working.mp3"></audio>
-                    <button class="button" onclick="document.getElementById('working').play()">Computer Working</button>
+                    <button class="button" onclick="document.getElementById('working').play()">Comp "Working"</button>
                 </li>
                 <li>
                     <audio id="tribble" src="assets/sounds/tribble.mp3"></audio>
@@ -325,7 +332,7 @@
                     <button class="button" onclick="document.getElementById('q_snap').play()">Q</button>
                 </li>
             </ul>
-            <h3>Computer voice stuff goes here</h3>
+            <h3>Computer beeps go here</h3>
         </section>
         <header id="equipment">
             <h2>Equipment FX</h2>
@@ -434,8 +441,8 @@
                         Disruptor</button>
                 </li>
                 <li>
-                    <audio id="romulan_torpedo_clean" src="assets/sounds/romulan_torpedo_clean.mp3"></audio>
-                    <button class="button" onclick="document.getElementById('romulan_torpedo_clean').play()">Romulan
+                    <audio id="romulan_torpedo" src="assets/sounds/romulan_torpedo.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('romulan_torpedo').play()">Romulan
                         Torp</button>
                 </li>
                 <li>
@@ -477,6 +484,11 @@
         <section class="favorite-list">
             <ul class="ambient">
                 <li>
+                    <h4>Klingon Ship Rumble</h4>
+                    <audio controls="controls" loop="loop">
+                        <source src="assets/sounds/trekambient/klingshiprumble.mp3" type="audio/mp3" /></audio>
+                </li>
+                <li>
                     <h4>Klingon Bridge</h4>
                     <audio controls="controls" loop="loop">
                         <source src="assets/sounds/trekambient/29_klingon_bridge.mp3" type="audio/mp3" /></audio>
@@ -487,6 +499,11 @@
                     <audio id="klingon_weapon_clean" src="assets/sounds/klingon_weapon_clean.mp3"></audio>
                     <button class="button" onclick="document.getElementById('klingon_weapon_clean').play()">Ship
                         Disruptor</button>
+                </li>
+                <li>
+                    <audio id="klingon_torpedo_clean" src="assets/sounds/klingon_torpedo_clean.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('klingon_torpedo_clean').play()">Klingon
+                        Torp</button>
                 </li>
                 <li>
                     <audio id="klingon_sensor_alert" src="assets/sounds/klingon_sensor_alert.mp3"></audio>
@@ -505,6 +522,11 @@
                 </li>
             </ul>
             <ul class="ambient">
+                <li>
+                    <audio id="kling_door01" src="assets/sounds/kling_door01.mp3"></audio>
+                    <button class="button" onclick="document.getElementById('kling_door01').play()">Klingon
+                        Door</button>
+                </li>
                 <li>
                     <audio id="klingon_disruptor_clean" src="assets/sounds/klingon_disruptor_clean.mp3"></audio>
                     <button class="button" onclick="document.getElementById('klingon_disruptor_clean').play()">Kling
