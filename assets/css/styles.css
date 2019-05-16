@@ -9,10 +9,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 h1 {
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 	font-weight: bold;
 	color: #8acbf1;
 	padding: 0;
+	/* padding-top: 1rem; */
+	margin-top: -1rem;
 	margin-bottom: 3.9rem;
 	margin-left: 1rem;
 }
